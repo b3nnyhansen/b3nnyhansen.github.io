@@ -21,37 +21,61 @@
 
                     <a class="btn btn-light border-dark row-cols-2" href="mailto:bhlifindra@gmail.com" role="button">
                         <span class="badge">
-                            <img src="icons\gmail.png" class="img-responsive custom-icon-size">
+                            <img src="icons\gmail.png" class="img-responsive custom-icon-size-1">
                         </span>
                         bhlifindra@gmail.com
                     </a>
 
                     <a class="btn btn-success border-dark row-cols-2" href="https://wa.me/+6281337862727" role="button">
                         <span class="badge">
-                            <img src="icons\whatsapp.png" class="img-responsive custom-icon-size">
+                            <img src="icons\whatsapp.png" class="img-responsive custom-icon-size-1">
                         </span>
                         +62 81 337 862 727
                     </a>
 
                     <a class="btn btn-primary border-dark row-cols-2" href="https://www.linkedin.com/in/bhlifindra/" role="button">
                         <span class="badge">
-                            <img src="icons\linkedin.png" class="img-responsive custom-icon-size">
+                            <img src="icons\linkedin.png" class="img-responsive custom-icon-size-1">
                         </span>
-                        linkedin.com/in/bhlifindra
+                        in/bhlifindra
                     </a>
 
                     <a class="btn btn-light border-dark row-cols-2" href="https://github.com/b3nnyhansen" role="button">
                         <span class="badge">
-                            <img src="icons\github.png" class="img-responsive custom-icon-size">
+                            <img src="icons\github.png" class="img-responsive custom-icon-size-1">
                         </span>
-                        github.com/b3nnyhansen
+                        b3nnyhansen
                     </a>
                 </div>
             </div>
 
-            <div class="row bg-primary text-white">
-                <br>
+            <br>
+
+            <div class="row justify-content-center">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a id="personalButton" class="nav-link" href="#" onclick="ShowPersonal(); return false;">Personal Info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="eduButton" class="nav-link" href="#" onclick="ShowEducations(); return false;">Educations</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a id="projectButton" class="nav-link" href="#" onclick="ShowProjects(); return false;">Projects</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a id="publicationButton" class="nav-link" href="#" onclick="ShowPublications(); return false;">Publications</a>
+                        </li>
+                    </ul>
+                
+            </div>
+
+            <br>
+
+            <div id="content" class="mx-5 bg-light">
+
             </div>
         </div>
+
+        <script src="script.js"></script>
     </body>
 </html>
